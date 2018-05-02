@@ -1,0 +1,65 @@
+/* GENERAL */
+.title {
+  text-align: center;
+}
+.buffer {
+  border: 1px solid #fff;
+}
+/* INFO / CONTACT */
+.img1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-left ul li {
+  text-align: right;
+}
+.contact-right ul li {
+  text-align: left;
+}
+
+
+.text p {
+  text-align: center;
+}
+
+/* EXPERIENCE */
+.exp h3 {
+  text-align: right;
+}
+.exp p {
+  text-align: justify;
+}
+.exp-poste p  {
+  font-weight: bold;
+  text-align: right;
+}
+.exp-poste li {
+  text-align: left;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 150%;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 20px;
+}
+/* FORMATION */
+.formation h3 {
+  text-align: left;
+}
+.formation p {
+  text-align: justify;
+}
