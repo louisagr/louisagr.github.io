@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
   <title>Portfolio</title>
@@ -17,7 +18,7 @@
     <div class="row">
       <div class="twelve columns title">
         <h1>Louis Augereau</h1>
-        <p>portfolio</p>
+        <p class="subtitle">24 ans<br>/<br>Dev Web en herbe</p>
         <hr>
       </div>
     </div>
@@ -32,7 +33,7 @@
         </ul>
       </div>
       <div class="four columns">
-        <img class="img1" src="img/body.jpg" alt="body">
+        <img class="img1 animated hinge" src="img/body.jpg" alt="body">
       </div>
       <div class="four columns contact-right">
         <ul>
@@ -43,112 +44,200 @@
         </ul>
       </div>
     </div>
-    <!-- TEXTE DE PRESENTATION -->
+    <!-- PROJET -->
     <div class="row">
-      <div class="twelve columns text">
-        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue;
-          and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice
-          is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently
-          occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid
-          worse pains.</p>
+      <div class="one column buffer">
+      </div>
+      <div class="ten columns">
+        <h3 class="protitre">Projets</h3>
+        <div class="projet">
+          <a href="https://louisagr.github.io/admin-test/">
+          <img src="img/projet01.png" alt="Exercice Dashboard" width="300", height="200"></a>
+          <div class="legende">HTML - Dashboard</div>
+        </div>
+        <div class="projet">
+          <a href="https://louisagr.github.io/projet-js/">
+            <img src="img/projet02.png" alt="Feuille d'exos JS" width="300", height="200"></a>
+          <div class="legende">JS - Petits tests</div>
+        </div>
+        <div class="projet">
+          <a href="https://louisagr.github.io/coolfriends/">
+            <img src="img/projet03.png" alt="Exercice React" width="300" height="200"></a>
+          <div class="legende">React - Annuaire</div>
+        </div>
+        <div class="projet">
+          <a href="https://louisagr.github.io/boitason/">
+            <img src="img/projet04.jpg" alt="Boitason" width="300" height="200"></a>
+          <div class="legende">JS - Avec <a href="https://github.com/kikiklang">@kikiklang</a></div>
+        </div>
+
+      </div>
+      <div class="one column buffer">
       </div>
     </div>
+    <hr>
     <!-- EXPERIENCE -->
     <div class="row">
-      <div class="five columns exp">
+      <div class="five columns exp animated fadeInLeftBig">
         <h3>Expérience</h3>
         <ul class="exp-poste">
           <div class="dropdown">
             <li>
               <p>Documentaliste audiovisuel</p>
-              <h6>Mairie de Paris</h6>
+              <h6><i class="far fa-building"></i> Paris Numérique<br><i class="fas fa-map-marker-alt"></i> Mairie de Paris<br><i class="far fa-calendar-alt"></i> 2017</h6>
               <div class="dropdown-content">
-              <ul>
-                <li>Indexation et archivage de vidéos</li>
-                <li>Encodage, upload & suivi statistique (YouTube / Dailymotion)</li>
-                <li>Analyse et traitement de demandes d'images</li>
-              </ul>
-            </div>
+                <ul>
+                  <li>Indexation et archivage de vidéos</li>
+                  <li>Encodage, upload & suivi statistique (YouTube / Dailymotion)</li>
+                  <li>Analyse et traitement de demandes d'images</li>
+                </ul>
+              </div>
             </li>
           </div>
           <div class="dropdown">
-          <li>
-            <p>Médiathécaire</p>
-            <div class="dropdown-content">
-            <ul>
-              <li>Désherbage du catalogue musical (10.000 disques)</li>
-              <li>Valorisation du fonds musical</li>
-              <li>Participation aux acquisitions et au catalogage des documents</li>
-              <li>Service public : accueil et orientation des usagers, animations</li>
-            </ul>
+            <li>
+              <p>Médiathécaire</p>
+              <h6><i class="far fa-building"></i> Médiathèque des Chartreux<br><i class="fas fa-map-marker-alt"></i> Issy-les-Moulineaux<br><i class="far fa-calendar-alt"></i> 2016</h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>Désherbage du catalogue musical (10.000 disques)</li>
+                  <li>Valorisation du fonds musical</li>
+                  <li>Participation aux acquisitions et au catalogage des documents</li>
+                  <li>Service public : accueil et orientation des usagers, animations</li>
+                </ul>
+              </div>
+            </li>
           </div>
-          </li>
-        </div>
-        <div class="dropdown">
-          <li>
-            <p>Agent des bibliothèques</p>
-            <div class="dropdown-content">
-            <ul>
-              <li>Catalogage, récolement et réparation des livres</li>
-              <li>Service public : accueil et orientation des usagers, animations</li>
-              <li>Préparation d'une exposition temporaire :<br>«Panorama de la littérature de terroir»</li>
-            </ul>
+          <div class="dropdown">
+            <li>
+              <p>Agent des bibliothèques</p>
+              <h6><i class="far fa-building"></i> Bibliothèque « La Conserverie »<br><i class="fas fa-map-marker-alt"></i> Saint-Gilles-Croix-de-Vie<br><i class="far fa-calendar-alt"></i> 2015</h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>Catalogage, récolement et réparation des livres</li>
+                  <li>Service public : accueil et orientation des usagers, animations</li>
+                  <li>Préparation d'une exposition temporaire :<br>«Panorama de la littérature de terroir»</li>
+                </ul>
+              </div>
+            </li>
           </div>
-          </li>
-        </div>
-        <div class="dropdown">
-          <li>
-            <p>Auxiliaire administratif</p>
-            <div class="dropdown-content">
-            <ul>
-              <li>Accueil, orientation & inscription des donneurs de sang</li>
-              <li>Contact régulier avec les laboratoires et centres de prélèvement</li>
-              <li>Préparation du matériel informatique et traitement des données</li>
-            </ul>
+          <div class="dropdown">
+            <li>
+              <p>Auxiliaire administratif</p>
+              <h6><i class="far fa-building"></i> Etablissement Français du Sang<br><i class="fas fa-map-marker-alt"></i> Versailles<br><i class="far fa-calendar-alt"></i> 2012/16</h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>Accueil, orientation & inscription des donneurs de sang</li>
+                  <li>Contact régulier avec les laboratoires et centres de prélèvement</li>
+                  <li>Préparation du matériel informatique et traitement des données</li>
+                </ul>
+              </div>
+            </li>
           </div>
-          </li>
-        </div>
         </ul>
       </div>
       <div class="two columns buffer">
       </div>
       <!-- FORMATION -->
-      <div class="five columns formation">
+      <div class="five columns formation animated fadeInRightBig">
         <h3>Formation</h3>
-        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue;
-          and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice
-          is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently
-          occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid
-          worse pains.</p>
+        <ul class="formation-dip">
+          <div class="dropdown" style="float:right;">
+            <li>
+              <p>Développeur Web</p>
+              <h6>Arinfo <i class="fas fa-graduation-cap"></i></i><br>La-Roche-Sur-Yon <i class="fas fa-map-marker-alt"></i><br>2018 <i class="far fa-calendar-alt"></i></h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>Langages : HTML/CSS, Javascript, PHP, MySQL, Java</li>
+                  <li>Environnement serveur & hébergement de site web</li>
+                  <li>Gestion de projet Web & Webdesign</li>
+                  <li>→ Formation labellisée « Grande Ecole du Numérique »</li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown" style="float:right;">
+            <li>
+              <p>Documentaliste multimédi@s</p>
+              <h6>INA <i class="fas fa-graduation-cap"></i></i><br>Bry-sur-Marne <i class="fas fa-map-marker-alt"></i><br>2017 <i class="far fa-calendar-alt"></i></h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>→ Mémoire professionnel : « L'harmonisation des pratiques documentaires au sein d'une institution publique : évolution(s) et utilisation(s) d'un outil de gestion de ressources numériques à la Mairie de Paris »</li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown" style="float:right;">
+            <li>
+              <p>DUT InfoCom - Métiers du Livre</p>
+              <h6>Paris Nanterre <i class="fas fa-graduation-cap"></i></i><br>Saint-Cloud <i class="fas fa-map-marker-alt"></i><br>2013/16 <i class="far fa-calendar-alt"></i></h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>→ Mémoire professionnel : « Quelle place pour la musique en médiathèque aujourd'hui ? »</li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown" style="float:right;">
+            <li>
+              <p>Baccalauréat Littéraire</p>
+              <h6>Jules Ferry <i class="fas fa-graduation-cap"></i></i><br>Versailles <i class="fas fa-map-marker-alt"></i><br>2009/12 <i class="far fa-calendar-alt"></i></h6>
+              <div class="dropdown-content">
+                <ul>
+                  <li>→ Section Européenne Anglais</li>
+                  <li>→ Séjours linguistiques : Chine, Espagne, Royaume-Uni</li>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </ul>
       </div>
     </div>
+    <hr>
     <!-- COMPETENCES -->
     <div class="row">
-      <div class="one column">
-
+      <div class="two columns buffer">
       </div>
       <div class="two columns">
-        <h4>DAM & SIGB</h4>
+        <h5>DAM</h5>
+        <ul>
+        <li>Carthame</li>
+        <li>Orphée</li>
+        <li>Phraseanet</li>
+        </ul>
       </div>
       <div class="two columns">
-        <h4>WEB</h4>
+        <h5>WEB</h5>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Dreamweaver</li>
+          <li>Javascript</li>
+        </ul>
       </div>
       <div class="two columns">
-        <h4>PAO</h4>
+        <h5>PAO</h5>
+        <ul>
+          <li>Bridge</li>
+          <li>InDesign</li>
+          <li>Photoshop</li>
+        </ul>
       </div>
       <div class="two columns">
-        <h4>VEILLE</h4>
+        <h5>VIDEO</h5>
+        <ul>
+          <li>FC Pro X</li>
+          <li>Premiere</li>
+          <li>Media Encoder</li>
+        </ul>
       </div>
-      <div class="two columns">
-        <h4>LANGUES</h4>
-      </div>
-      <div class="one column">
+      <div class="two columns buffer">
 
       </div>
     </div>
   </div>
 </body>
 <script src="js/script.js"></script>
+<script src="anime.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 </html>

@@ -1,43 +1,93 @@
 /* GENERAL */
+
 .title {
   text-align: center;
+}
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .buffer {
   border: 1px solid #fff;
 }
 /* INFO / CONTACT */
+
 .img1 {
   display: block;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .contact-left ul li {
   text-align: right;
 }
+
 .contact-right ul li {
   text-align: left;
 }
 
-
 .text p {
   text-align: center;
 }
+/* PROJETS */
+.protitre {
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.projet {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 
+div.projet:hover {
+    border: 1px solid #777;
+}
+
+div.projet img {
+    width: 100%;
+    height: auto;
+}
+
+div.legende {
+    text-align: center;
+}
 /* EXPERIENCE */
+
 .exp h3 {
   text-align: right;
+  letter-spacing: 2px;
 }
-.exp p {
-  text-align: justify;
-}
-.exp-poste p  {
+
+.exp-poste p {
   font-weight: bold;
-  text-align: right;
+  text-align: left;
 }
+
 .exp-poste li {
   text-align: left;
 }
+
+/* FORMATION */
+
+.formation h3 {
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.formation-dip p {
+  font-weight: bold;
+  text-align: right;
+}
+
+.formation-dip li {
+  text-align: right;
+}
+
+/* DROPDOWN */
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -45,21 +95,21 @@
 
 .dropdown-content {
   display: none;
+  padding: 10px 10px;
   position: relative;
-  width: 150%;
-  background-color: black;
-  color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
   border-radius: 20px;
 }
-/* FORMATION */
-.formation h3 {
-  text-align: left;
-}
-.formation p {
-  text-align: justify;
+/* COMPETENCES */
+
+h5 {
+  text-align: center;
 }
