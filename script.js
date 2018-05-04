@@ -27,7 +27,7 @@ document.onreadystatechange = () => {
 // }
 document.getElementById("btn").onclick = function() {
   var type = ["Un site ", "Une appli ", "Un projet ", "Une plateforme ", "Un Wordpress ", "Un Wix ", "Un portfolio ", "Un réseau social ", "Une to-do list ", "Un template ", "Un prestashop ", "Un tuto "];
-  var adjectif = ["trop cool ", "super bien ", "sympa ", "responsive ", "pas trop naze ", "révolutionnaire ", "facile à faire ", "fait.e à l'arrache ", "à la main ", "en JS pur ", "assez osé.e ", " fait.e par Kenny"];
+  var adjectif = ["trop cool ", "super bien ", "sympa ", "responsive ", "pas trop naze ", "révolutionnaire ", "facile à faire ", "fait à l'arrache ", "à la main ", "en JS pur ", "assez osé ", "fait par Kenny "];
   var theme = ["sur les chats", "à la Facebook", "pour les développeurs", "pour les kids", "pour Philippe", "sur les poneys", "pour apprendre à coder", "pour se la péter", "pour les photos de ma Maman", "pour le CV d'un pote", "pour le site d'Arinfo", "à la LoSo"];
 
   var typeAle = type[Math.floor(Math.random() * 12)];
