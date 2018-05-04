@@ -1,15 +1,24 @@
 /* GENERAL */
 
+* {
+  transition: color 5s;
+}
+
 .title {
   text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
+
 .subtitle {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .buffer {
   border: 1px solid #fff;
 }
+
 /* INFO / CONTACT */
 
 .img1 {
@@ -25,40 +34,55 @@
 
 .contact-right ul li {
   text-align: left;
+  text-decoration: none;
 }
-
+.contact-right ul li a {
+  text-decoration: none;
+  color: #008080;
+}
 .text p {
   text-align: center;
 }
+
 /* PROJETS */
+
 .protitre {
   text-align: center;
   letter-spacing: 2px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
 }
+
 div.projet {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
 div.projet:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
 
 div.projet img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 div.legende {
-    text-align: center;
+  text-align: center;
+}
+div.legende a {
+  text-decoration: none;
+   color: #008080;
 }
 /* EXPERIENCE */
 
 .exp h3 {
   text-align: right;
   letter-spacing: 2px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
 .exp-poste p {
@@ -75,6 +99,8 @@ div.legende {
 .formation h3 {
   text-align: left;
   letter-spacing: 2px;
+  font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
 .formation-dip p {
@@ -108,8 +134,28 @@ div.legende {
   display: block;
   border-radius: 20px;
 }
+
 /* COMPETENCES */
 
 h5 {
+  text-align: center;
+}
+
+.skills h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.skills {
+  text-align: center;
+}
+/* TRUCS QUE J'AIME */
+.son h3 {
+  text-align: center;
+}
+.book h3 {
+  text-align: center;
+}
+.cover {
   text-align: center;
 }
