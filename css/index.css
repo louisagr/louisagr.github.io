@@ -36,10 +36,12 @@
   text-align: left;
   text-decoration: none;
 }
+
 .contact-right ul li a {
   text-decoration: none;
   color: #008080;
 }
+
 .text p {
   text-align: center;
 }
@@ -50,7 +52,6 @@
   text-align: center;
   letter-spacing: 2px;
   font-family: 'Montserrat Alternates', sans-serif;
-
 }
 
 div.projet {
@@ -72,17 +73,18 @@ div.projet img {
 div.legende {
   text-align: center;
 }
+
 div.legende a {
   text-decoration: none;
-   color: #008080;
+  color: #008080;
 }
+
 /* EXPERIENCE */
 
 .exp h3 {
   text-align: right;
   letter-spacing: 2px;
   font-family: 'Montserrat Alternates', sans-serif;
-
 }
 
 .exp-poste p {
@@ -100,7 +102,6 @@ div.legende a {
   text-align: left;
   letter-spacing: 2px;
   font-family: 'Montserrat Alternates', sans-serif;
-
 }
 
 .formation-dip p {
@@ -146,16 +147,29 @@ h5 {
   letter-spacing: 2px;
   font-family: 'Montserrat Alternates', sans-serif;
 }
+
 .skills {
   text-align: center;
 }
+
 /* TRUCS QUE J'AIME */
+
 .son h3 {
   text-align: center;
 }
+
 .book h3 {
   text-align: center;
 }
+
 .cover {
   text-align: center;
+}
+
+/* GENERATOR */
+
+#generator {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
 }
